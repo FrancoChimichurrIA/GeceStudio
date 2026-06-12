@@ -1,6 +1,6 @@
 # GC Studio — Identidad, percepcion y direccion creativa
 
-URL: https://preview--feel-it-sell-it-studio.lovable.app/studio
+URL: studio.html
 
 Seccion: 01 / STUDIO
 

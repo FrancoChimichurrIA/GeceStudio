@@ -1,6 +1,6 @@
 # GC Labs — Performance, ingenieria de conversion y growth
 
-URL: https://preview--feel-it-sell-it-studio.lovable.app/labs
+URL: labs.html
 
 Seccion: 02 / LABS
 

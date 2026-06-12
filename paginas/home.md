@@ -1,6 +1,6 @@
 # Home — Pagina Principal
 
-URL: https://preview--feel-it-sell-it-studio.lovable.app/
+URL: index.html
 
 ---
 

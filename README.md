@@ -61,14 +61,13 @@ Componentes clave: navbar fijo, hero a pantalla completa, tabla comparativa, gri
 Iconografia: simbolos minimalistas (asteriscos, flechas) coherentes con la marca
 Despliegue: Vercel o Netlify
 
-Nota: el sitio original esta hecho con Lovable (lovable.app), una herramienta de generacion de apps web.
 
 ---
 
 ## Contacto
 
 Instagram: @studiogece
-TikTok: @studiogece
+TikTok: @gece.studio
 WhatsApp: +54 9 3415 49-0701
 Email: hola@gecestudio.com
 

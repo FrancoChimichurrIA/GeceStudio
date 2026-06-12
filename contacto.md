@@ -1,6 +1,6 @@
 # Contacto
 
-URL del sitio: https://preview--feel-it-sell-it-studio.lovable.app/
+URL del sitio: index.html
 
 ---
 
@@ -9,7 +9,7 @@ URL del sitio: https://preview--feel-it-sell-it-studio.lovable.app/
 | Canal | Dato |
 |-------|------|
 | Instagram | @studiogece |
-| TikTok | @studiogece |
+| TikTok | @gece.studio |
 | WhatsApp | +54 9 3415 49-0701 |
 | Email | hola@gecestudio.com |
 | Auditoria gratuita | Agenda en el calendario |
