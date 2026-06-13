@@ -633,9 +633,7 @@
 		position: relative;
 	}
 	.gc-brand-strip::before,
-	.gc-brand-strip::after,
-	#sistemas + div::before,
-	#sistemas + div::after {
+	.gc-brand-strip::after {
 		content: "";
 		position: absolute;
 		top: 0;
@@ -644,13 +642,11 @@
 		z-index: 2;
 		pointer-events: none;
 	}
-	.gc-brand-strip::before,
-	#sistemas + div::before {
+	.gc-brand-strip::before {
 		left: 0;
 		background: linear-gradient(90deg, #000, transparent);
 	}
-	.gc-brand-strip::after,
-	#sistemas + div::after {
+	.gc-brand-strip::after {
 		right: 0;
 		background: linear-gradient(270deg, #000, transparent);
 	}
