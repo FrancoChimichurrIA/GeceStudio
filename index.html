@@ -49,6 +49,93 @@
 	/* Logos del marquee: estan en blanco (invert) -> a negro para que se vean sobre claro */
 	html.light .marquee-track-slow img { filter: brightness(0) !important; }
 
+	/* ===== RITMO VERTICAL / ESPACIOS NEGROS ===== */
+	main > section.bg-black,
+	main > section[class*="bg-[#1a1a1a]"] {
+		scroll-margin-top: 6.5rem;
+	}
+	main > section.bg-black + section.bg-black {
+		box-shadow: inset 0 1px 0 rgba(255,255,255,0.08);
+	}
+	@media (max-width: 767px) {
+		main > section.bg-black:not(.gc-home-hero):not(.gc-brand-strip),
+		main > section[class*="bg-[#1a1a1a]"] {
+			padding-top: 4.5rem !important;
+			padding-bottom: 4.5rem !important;
+		}
+		#sistemas {
+			padding-top: 0 !important;
+			padding-bottom: 4rem !important;
+		}
+		#proceso {
+			padding-top: 4rem !important;
+			padding-bottom: 4rem !important;
+		}
+		#agenda {
+			padding-top: 4.25rem !important;
+			padding-bottom: 4.5rem !important;
+		}
+		#contacto {
+			padding-top: 4.5rem !important;
+			padding-bottom: 4.75rem !important;
+		}
+		#proceso .mt-16,
+		#testimonios .mt-14,
+		#contacto .mt-16 {
+			margin-top: 2.5rem !important;
+		}
+		#sistemas .gap-6 {
+			gap: 1rem !important;
+		}
+		#sistemas a {
+			padding: 1.65rem !important;
+		}
+		#sistemas a .mb-10 {
+			margin-bottom: 1.75rem !important;
+		}
+		#sistemas a .mt-8,
+		#sistemas a .mt-10 {
+			margin-top: 1.5rem !important;
+		}
+		[class*="min-h-[280px]"],
+		[class*="min-h-[260px]"] {
+			min-height: 0 !important;
+		}
+		#proceso [class*="min-h-[280px]"] {
+			padding-top: 1.5rem !important;
+			padding-bottom: 1.5rem !important;
+		}
+		#proceso [class*="min-h-[280px]"] .mb-6 {
+			margin-bottom: 1.25rem !important;
+		}
+		#testimonios {
+			padding-top: 4.25rem !important;
+			padding-bottom: 4.25rem !important;
+		}
+		#testimonios h2 {
+			margin-bottom: 2rem !important;
+		}
+	}
+	@media (min-width: 768px) {
+		main > section.bg-black:not(.gc-home-hero):not(.gc-brand-strip),
+		main > section[class*="bg-[#1a1a1a]"] {
+			padding-top: 7.25rem !important;
+			padding-bottom: 7.25rem !important;
+		}
+		#sistemas {
+			padding-top: 0 !important;
+			padding-bottom: 7rem !important;
+		}
+		#agenda {
+			padding-top: 7rem !important;
+			padding-bottom: 7.25rem !important;
+		}
+		#contacto {
+			padding-top: 7.25rem !important;
+			padding-bottom: 7.25rem !important;
+		}
+	}
+
 	/* ===== MARCAS ===== */
 	.gc-brand-strip .marquee-track-slow {
 		animation-duration: 14s !important;
@@ -412,23 +499,23 @@
 	}
 	@media (max-width: 767px) {
 		#testimonios {
-			padding-top: 5rem !important;
-			padding-bottom: 5rem !important;
+			padding-top: 4.25rem !important;
+			padding-bottom: 4.25rem !important;
 		}
 		#testimonios h2 {
-			margin-bottom: 2.5rem !important;
+			margin-bottom: 2rem !important;
 		}
 		.gc-testimonial-shell {
 			display: grid !important;
 			grid-template-columns: 1fr !important;
-			gap: 2rem !important;
+			gap: 1.65rem !important;
 		}
 		.gc-testimonial-media {
-			width: 11rem !important;
-			max-width: 11rem !important;
+			width: 10rem !important;
+			max-width: 10rem !important;
 		}
 		.gc-testimonial-quote-wrap {
-			max-height: 20rem;
+			max-height: 17.5rem;
 			padding-right: 0.5rem;
 		}
 		#testimonial-quote {
