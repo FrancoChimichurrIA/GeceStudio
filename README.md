@@ -69,7 +69,7 @@ Despliegue: Vercel o Netlify
 Instagram: @studiogece
 TikTok: @gece.studio
 WhatsApp: +54 9 3415 49-0701
-Email: hola@gecestudio.com
+Email: gecestudiocomercial@gmail.com
 
 Ubicacion: Argentina
 Slogan: feel it. sell it.
