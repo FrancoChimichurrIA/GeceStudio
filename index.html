@@ -348,11 +348,11 @@
 			position: absolute;
 			left: 50%;
 			top: 50%;
-			transform: translate(-50%, -50%) scale(1.42);
+			transform: translate(-50%, -50%) scale(1);
 			transform-origin: left top;
 			font-weight: 800;
-			font-size: 1.1rem;
-			letter-spacing: 0.38em;
+			font-size: clamp(3.1rem, 9.2vw, 7.45rem);
+			letter-spacing: 0.1em;
 			color: #fff;
 			white-space: nowrap;
 			opacity: 0;
@@ -405,7 +405,7 @@
 		html.gc-logo-visible .gc-logo-intro-mark {
 			opacity: 1;
 			filter: blur(0);
-			letter-spacing: 0.22em;
+			letter-spacing: 0.06em;
 		}
 		html.gc-logo-visible .gc-logo-intro-mark span {
 			opacity: 1;
@@ -417,6 +417,7 @@
 			left: var(--gc-logo-left, 46px);
 			top: var(--gc-logo-top, 38px);
 			transform: translate(0, 0) scale(var(--gc-logo-scale, 1));
+			letter-spacing: 0.18em;
 		}
 		html.gc-logo-done .gc-logo-intro {
 			opacity: 0;
@@ -523,7 +524,7 @@
 			.hero-title { font-size: 7.6rem; }
 		}
 		@media (max-width: 520px) {
-			.gc-logo-intro-mark { font-size: 1rem; transform: translate(-50%, -50%) scale(1.28); }
+			.gc-logo-intro-mark { font-size: clamp(2.25rem, 12.7vw, 3.35rem); letter-spacing: 0.055em; }
 			.hero-title { font-size: 2.48rem; line-height: 0.96; }
 		}
 	.hero-title-emphasis {
@@ -1023,9 +1024,7 @@
 		var navRect=navLogo.getBoundingClientRect();
 		var markRect=introMark.getBoundingClientRect();
 		if(!navRect.width||!markRect.width)return;
-		var introScale=window.innerWidth<=520?1.28:1.42;
-		var baseWidth=markRect.width/introScale;
-		var scale=baseWidth?Math.min(1,navRect.width/baseWidth):1;
+		var scale=Math.min(1,navRect.width/markRect.width);
 		root.style.setProperty('--gc-logo-left',navRect.left+'px');
 		root.style.setProperty('--gc-logo-top',navRect.top+'px');
 		root.style.setProperty('--gc-logo-scale',scale.toFixed(3));
